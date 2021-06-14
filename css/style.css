@@ -10,6 +10,9 @@
 * banner
 * book shelf
 * book row
+* subjects and others
+* footer
+* copyright
 */
 
 
@@ -205,6 +208,7 @@ ul{
     height: 265px;
     background-color: #0f1626;
     position: relative;
+    overflow: hidden;
 }
 .banner__slider .row{
     height: 100%;
@@ -270,7 +274,7 @@ ul{
     padding: 7px 15px;
     display: inline-block;
     background-color: #feae01;
-    color: #0f1626;
+    color: #000;
     border-radius: 5px;
 }
 .banner__slider .banner__slider-image img{
@@ -397,7 +401,7 @@ ul{
 
 /******************* book row start *******************/
 .book-row{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 .book-row__title{
     font-size: 16px;
@@ -476,5 +480,123 @@ ul{
     color: #fff;
     cursor: pointer;
 }
-
+.all-button{
+    width: 120px;
+    padding: 8px 0;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #0f1626;
+    color: #feae01;
+    transition: all .3s;
+}
+.all-button:hover{
+    color: #fff;
+}
 /******************* book row end *******************/
+
+
+/******************* subjects and others start *******************/
+.subjects{
+    margin-bottom: 40px;
+}
+.subjects ul.nav{
+    font-size: 16px;
+    background-color: #0f1626;
+    color: #feae01;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.subjects .nav-pills .nav-link{
+    padding: 6px 15px;
+    color: #feae01;
+}
+.subjects .nav-pills .nav-link.active,
+.subjects .nav-pills .show>.nav-link{
+    background-color: #feae01;
+    color: #000;
+    border-radius: 0;
+}
+.subjects__item{
+    display: block;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgba(0,0,0, .2);
+    color: #0f1626;
+    transition: all .3s;
+    margin-bottom: 10px;
+}
+.subjects__item:hover{
+    background-color: #feae01;
+    color: #0f1626;
+    font-weight: bold;
+}
+.all-button--subject{
+    margin-top: 20px;
+}
+
+/******************* subjects and others end *******************/
+
+/******************* footer start *******************/
+footer{
+    background-color: #feae01;
+    padding: 60px 0 40px;
+    color: #000
+}
+footer .footer__about-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+footer .footer__social-media{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #000;
+    color: #000;
+    display: inline-block;
+    margin-right: 10px;
+    transition: all .3s;
+}
+footer .footer__social-media:hover{
+    background-color: #000;
+    color: #feae01;
+}
+footer .footer__section-subtitle{
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+footer .footer__link-item{
+    display: block;
+    color: #000;
+    border-bottom: 1px solid #d49100;
+    transition: all .3s;
+    padding: 7px 12px;
+}
+footer .footer__link-item:hover{
+    background-color: #0f1626;
+    color: #feae01;
+}
+/******************* footer end *******************/
+
+
+/******************* copyright start *******************/
+.copyright{
+    background-color: #000;
+    text-align: center;
+}
+.copyright p{
+    margin-bottom: 0;
+    padding: 15px 0;
+    color: #feae01;
+}
+.copyright p a{
+    color: #fff;
+}
+/******************* copyright end *******************/

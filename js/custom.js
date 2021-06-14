@@ -8,6 +8,22 @@ $(document).ready(function(){
         slidesToScroll: 4,
         prevArrow: '.fa-angle-left',
         nextArrow: '.fa-angle-right',
+        responsive: [
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                }
+            },
+            {
+                breakpoint: 575,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                }
+            }
+        ]
     });
 
     // banner slider
@@ -19,7 +35,9 @@ $(document).ready(function(){
         asNavFor: '.banner__slider__text',
         arrows: false,
         autoplay: true,
-        autoplaySpeed: 2000
+        autoplaySpeed: 2000,
+        pauseOnHover: false,
+        pauseOnFocus: false,
     });
 
     // banner slider text
@@ -30,7 +48,9 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows: false,
         vertical: true,
-        asNavFor: '.banner__slider-image'
+        asNavFor: '.banner__slider-image',
+        pauseOnHover: false,
+        pauseOnFocus: false,
     });
 
 

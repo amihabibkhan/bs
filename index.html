@@ -16,6 +16,9 @@
     <!-- Main CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+
     <title>Bikiron Shop</title>
 </head>
 <body>
@@ -24,22 +27,22 @@
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-4 col-md-2">
                     <img src="images/logo.png" class="header-top__logo" alt="bikironshop logo">
                 </div>
-                <div class="col-lg-7">
+                <div class="col-md-7 order-4 order-md-2">
                     <form action="" class="header-top__search-form">
                         <input type="text" class="form-control" placeholder="বইয়ের নাম দিয়ে সার্চ করুন...">
                         <button class="header-top__search-form__button"><i class="fas fa-search"></i></button>
                     </form>
                 </div>
-                <div class="col-lg-1 text-center">
+                <div class="col-2 col-md-1 order-2 order-md-3 text-center">
                     <a href="#" class="header-top__cart">
                         <i class="fas fa-shopping-basket"></i>
                         <span class="header-top__cart__badge">1</span>
                     </a>
                 </div>
-                <div class="col-lg-2 text-right ">
+                <div class="col-6 col-md-2 order-3 order-md-4 text-right ">
                     <a href="" class="header-top__login-button">লগইন/রেজিস্টার</a>
                 </div>
             </div>
@@ -87,7 +90,7 @@
         <div class="container">
             <div class="banner__slider">
                 <div class="row">
-                    <div class="col-7">
+                    <div class="col-7 d-none d-lg-block">
                         <span></span>
                         <div class="banner__slider-image">
                             <img src="images/banner-1.jpg" alt="">
@@ -95,7 +98,7 @@
                             <img src="images/banner-1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-5 text-center">
+                    <div class="col-lg-5 text-center">
                         <div class="banner__slider__text">
                             <div>
                                 <h2>কুরআন পড়ুন, জীবন গড়ুন নিজে পড়ুন অন্যকে উপহার দিন</h2>
@@ -357,9 +360,391 @@
                     </div>
                 </div>
             </div>
+            <a href="" class="all-button">সবগুলো বই</a>
         </div>
     </section>
     <!-- book row end -->
+
+    <!-- subjects and others start -->
+    <section class="subjects">
+        <div class="container">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="subject-tab" data-toggle="pill" href="#subject" role="tab" aria-controls="subject" aria-selected="true">বিষয় সমূহ</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="publication-tab" data-toggle="pill" href="#publication" role="tab" aria-controls="publication" aria-selected="false">প্রকাশনী</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="writer-tab" data-toggle="pill" href="#writer" role="tab" aria-controls="writer" aria-selected="false">লেখক</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="subject" role="tabpanel" aria-labelledby="pills-home-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                    </div>
+                    <a href="" class="all-button all-button--subject">সবগুলো বিষয় </a>
+                </div>
+                <div class="tab-pane fade" id="publication" role="tabpanel" aria-labelledby="pills-profile-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                    </div>
+                    <a href="" class="all-button all-button--subject">সকল প্রকাশনী </a>
+                </div>
+                <div class="tab-pane fade" id="writer" role="tabpanel" aria-labelledby="pills-contact-tab">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-6">
+                            <a href="" class="subjects__item">অন্ধকার থেকে আলোতে</a>
+                        </div>
+                    </div>
+                    <a href="" class="all-button all-button--subject">সকল লেখক</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- subjects and others end -->
+
+    <!-- book row start -->
+    <section class="book-row">
+        <div class="container">
+            <h2 class="book-row__title">সিরাতে রাসুল (সাঃ)</h2>
+            <div class="row">
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-1.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">গণিতে জেমস বন্ড</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">মোত্তাসিন পাহলভি</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-2.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">গণিতে জেমস বন্ড</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">মোত্তাসিন পাহলভি</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-3.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">গণিতে জেমস বন্ড</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">মোত্তাসিন পাহলভি</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-4.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">গণিতে জেমস বন্ড</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">মোত্তাসিন পাহলভি</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-5.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">গণিতে জেমস বন্ড</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">মোত্তাসিন পাহলভি</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+                <!-- single item -->
+                <div class="col-lg-2 col-md-3 col-sm-4 col-6">
+                    <div class="book-row__single-book">
+                        <a href="#" class="book-row__single-book__image">
+                            <img src="images/book-6.jpg" alt="bikironshop">
+                        </a>
+                        <h2 title="গণিতে জেমস বন্ড" class="book-row__single-boo__title">ইসলামের বার্তা গুলো ডাকে তোমায় হে যুবক</h2>
+                        <h3 title="মোত্তাসিন পাহলভি" class="book-row__single-boo__author">ড. খন্দকার আব্দুল্লাহ জাহাঙ্গীর</h3>
+                        <p class="book-row__single-boo__price">
+                            <del>195 TK</del>
+                            145 TK
+                        </p>
+                        <a class="book-row__single-boo__buy-icon">
+                            <i class="fas fa-shopping-basket"></i>
+                            কিনে ফেলুন
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="all-button">সবগুলো বই</a>
+        </div>
+    </section>
+    <!-- book row end -->
+
+    <!-- footer start -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <h2 class="footer__about-title">বিকিরণ শপ</h2>
+                    <p class="footer__about-description">আমাদের ব্যপারে সংক্ষিপ্ত কথা বলে দিচ্ছি এখানে। তাই আর কোন কথা বলবেন না কিন্তু। আমরা খুব ভালো মানুষ বঝেছেন? না বুঝলে কি আর করার আছে? আমি তো চেষ্টা কম করলাম না।</p>
+                    <a href="tel:8801770496249" class="footer__social-media"><i class="fas fa-phone"></i></a>
+                    <a href="" class="footer__social-media"><i class="fab fa-facebook-f"></i></a>
+                    <a href="" class="footer__social-media"><i class="fab fa-youtube"></i></a>
+                    <a href="" class="footer__social-media"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer__section-subtitle">জনপ্রিয় বই</h3>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h3 class="footer__section-subtitle">নতুন প্রকাশিত</h3>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h3 class="footer__section-subtitle">গুরুত্বপূর্ণ লিংক</h3>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                    <a href="" class="footer__link-item">ইসলামে জীবন বিধার</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- copyright start -->
+    <div class="copyright">
+        <p>Copyright &copy; 2021 | All right reserved | Developed by <a href="#">LEGEND IT</a></p>
+    </div>
+    <!-- copyright end -->
 
 
 
