@@ -9,6 +9,7 @@
 * main navbar
 * banner
 * book shelf
+* book row
 */
 
 
@@ -319,6 +320,7 @@ ul{
     background-color: #fff;
     box-shadow: 3px 3px 5px rgba(0,0,0,.2);
     padding: 10px 20px 20px;
+    margin-bottom: 40px;
 }
 .shelf h2.shelf__title{
     background-color: #feae01;
@@ -391,3 +393,82 @@ ul{
 }
 
 /******************* book shelf end *******************/
+
+
+/******************* book row start *******************/
+.book-row{
+    margin-bottom: 100px;
+}
+.book-row__title{
+    font-size: 16px;
+    background-color: #0f1626;
+    color: #feae01;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.book-row__single-book {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.2);
+    transition: all .2s;
+}
+.book-row__single-book:hover {
+    box-shadow: 0 10px 20px -9px black;
+    transform: translateY(-3px);
+}
+.book-row__single-book__image{
+    padding: 20px;
+    display: block;
+}
+.book-row__single-book__image img{
+    width: 100%;
+    height: 100%;
+}
+.book-row__single-boo__title {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    height: 38px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+.book-row__single-boo__author {
+    text-align: center;
+    font-size: 14px;
+    color: #0f1626;
+}
+.book-row__single-boo__price {
+    text-align: center;
+    font-size: 16px;
+    color: #0f1626;
+    border-top: 1px solid #cfd0d4;
+    padding: 7px 0;
+    margin-bottom: 0;
+}
+.book-row__single-boo__price del{
+    font-size: 14px;
+    opacity: .8;
+}
+.book-row__single-boo__buy-icon {
+    text-align: center;
+    font-size: 16px;
+    color: #feae01;
+    padding: 7px 0;
+    background-color: #0f1626;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: block;
+    transition: all .3s;
+}
+.book-row__single-boo__buy-icon i{
+    margin-right: 5px;
+}
+.book-row__single-boo__buy-icon:hover{
+    color: #fff;
+    cursor: pointer;
+}
+
+/******************* book row end *******************/
