@@ -23,6 +23,14 @@
     footer .footer__section-subtitle {
         margin-top: 20px;
     }
+
+    /* all books page css */
+    .all-books .all-books__filter{
+        margin-bottom: 10px;
+    }
+    .all-books .all-books__filter .card-header{
+        border-radius: 3px;
+    }
 }
 
 /* extra small device */

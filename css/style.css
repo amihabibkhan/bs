@@ -50,6 +50,7 @@ a, a:hover{
 }
 ul{
     list-style-type: none;
+    margin-bottom: 0;
 }
 /* common css end */
 
@@ -571,6 +572,7 @@ footer .footer__section-subtitle{
     font-size: 24px;
     color: #000;
     margin-bottom: 20px;
+    padding-left: 12px;
 }
 footer .footer__link-item{
     display: block;
