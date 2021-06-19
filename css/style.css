@@ -51,6 +51,11 @@ a, a:hover{
 ul{
     list-style-type: none;
     margin-bottom: 0;
+    padding-left: 0;
+}
+.form-control:focus{
+    box-shadow: unset!important;
+    border-color: black!important;
 }
 /* common css end */
 
@@ -137,7 +142,7 @@ ul{
 .main-menu .container{
     position: relative;
 }
-.main-menu .container .main-menu__arrows{
+.main-menu .container .main-menu__arrows{ 
     position: absolute;
     right: 0;
     z-index: 999;
